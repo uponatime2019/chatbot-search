@@ -1,0 +1,49 @@
+{
+  "name": "kp-chatbot-search",
+  "displayName": "Chatbot Search",
+  "description": "Search the web using popular chatbot providers from VSCode",
+  "version": "0.0.1",
+  "publisher": "uponatime2025",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "chatbot",
+    "search",
+    "AI",
+    "productivity"
+  ],
+  "activationEvents": [
+    "onCommand:chatbot-search"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "chatbot-search",
+        "title": "Chatbot Search"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.87.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@typescript-eslint/eslint-plugin": "8.28.0",
+    "@typescript-eslint/parser": "8.28.0",
+    "eslint": "^9.23.0",
+    "typescript": "^5.8.2",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1"
+  },
+  "icon": "icon.png",
+  "license": "MIT"
+}
