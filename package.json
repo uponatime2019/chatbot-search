@@ -2,7 +2,7 @@
   "name": "kp-chatbot-search",
   "displayName": "Chatbot Search",
   "description": "Search the web using popular chatbot providers from VSCode",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "uponatime2025",
   "engines": {
     "vscode": "^1.87.0"
@@ -11,10 +11,14 @@
     "Other"
   ],
   "keywords": [
+    "ai search",
+    "chatgpt",
+    "grok",
+    "claude",
     "chatbot",
     "search",
     "AI",
-    "productivity"
+    "search ai"
   ],
   "activationEvents": [
     "onCommand:chatbot-search"
