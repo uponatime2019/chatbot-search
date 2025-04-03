@@ -2,7 +2,7 @@
   "name": "kp-chatbot-search",
   "displayName": "Chatbot Search",
   "description": "Search the web using popular chatbot providers from VSCode",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "uponatime2025",
   "engines": {
     "vscode": "^1.87.0"
@@ -45,5 +45,9 @@
     "@vscode/test-electron": "^2.4.1"
   },
   "icon": "icon.png",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uponatime2019/chatbot-search.git"
+  }
 }

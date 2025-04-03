@@ -12,5 +12,9 @@ A VSCode extension to search the web using popular chatbot providers.
 3. Choose a provider.
 4. Enter your query and press Enter.
 
+## Repository
+The source code for this extension is available on GitHub:  
+[https://github.com/uponatime2019/chatbot-search](https://github.com/uponatime2019/chatbot-search)
+
 ## License
 MIT
